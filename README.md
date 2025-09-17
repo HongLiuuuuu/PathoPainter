@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# PathoPainter
-Implementation of "PathoPainter: Augmenting Histopathology Segmentation via Tumor-aware Inpainting"
-
-Coming soon!
-=======
 # PathoPainter: Augmenting Histopathology Segmentation via Tumor-aware Inpainting
 
 
@@ -78,4 +72,3 @@ The augmented dataset can then be used to re-train your segmentation model for i
       url={https://arxiv.org/abs/2503.04634}, 
 }
 ```
->>>>>>> 6de11d1 (upload code)
