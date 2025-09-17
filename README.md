@@ -39,7 +39,7 @@ conda activate pathopainter
 First, download the dataset and split the WSIs into patches along with their corresponding masks. We also generate masked images where background regions are removed for inpainting.  
 
 For regional feature extraction, we use [HIPT](https://github.com/mahmoodlab/HIPT) as the self-supervised model to obtain tumor region embeddings.  
-The checkpoints can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1vovXjxP6k_2P6LMfSvdYRytlRVZN7yz1)
+The checkpoints can be downloaded from [here](https://drive.google.com/drive/u/0/folders/1vovXjxP6k_2P6LMfSvdYRytlRVZN7yz1).
 A training example is provided in [./tool/HIPT](./tool/HIPT/). After training HIPT, extract the tumor region embeddings for the training set and save them locally.  
 
 With the image, masked image, mask, and tumor embeddings prepared, you can train the model by running:
